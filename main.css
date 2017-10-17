@@ -1,45 +1,117 @@
-* {
+/* Base rules */
+:root * {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
-.center h2{
-    text-align: center;
+
+h2 {
+    font-size: 2.125em;
 }
-.center li{
-    text-align: center;
-}
+
 li {
-    list-style: none;
+    list-style-type: none;
 }
-/* -------- */
-.header-bg{
+
+/* Utility classes */
+.u-text-center {
+    text-align: center;
+}
+
+.u-text-white {
+    color: white;
+}
+
+.u-bg-brand {
     background-color: #489df2;
 }
-.jumbotron-fluid{
-    /* background-color: #f76c5e; */
-    
-    text-align: center;
+
+/* Section */
+.section {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding-left: 1em;
+    padding-right: 1em;
 }
-.jumbotron-fluid h1{
-    color: white;
-    font-size: 8rem;
-}
-.jumbotron-fluid p{
-    color: white;
-   
-}
-#footer{
-    background-color: blue;
-    text-align: center;
-    color: red;
-    bottom: 0px;
+.section-content {
+    width: 100%;
 }
 
-.list-grid ol{
+/* Jumbotron */
+.jumbotron-fluid h1 {
+    margin-bottom: 0;
+    font-size: 11vmin;
+}
+
+.lead {
+    font-size: 1.25em;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+    padding: .4375em .875em;
+    border: 1px solid transparent;
+    border-radius: .25em;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    background-image: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn-primary {
+    color: white;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.btn-lg {
+    font-size: 1.125em;
+}
+
+/* List grid */
+.list-grid ol {
+    padding: 0;
+}
+
+.list-grid li {
+    line-height: 1.5;
+}
+
+.list-grid a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.list-grid a:hover,
+.list-grid a:focus {
+    text-decoration: underline;
+    color: #23527c;
+}
+
+@media only screen and (min-width: 400px) {
+  .list-grid ol {
     column-count: 3;
-}
-
-@media (max-width: 768px) {
-    .jumbotron-fluid h1 {
-        font-size: 4rem;
-    }
+  }
 }
