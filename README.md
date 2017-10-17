@@ -28,6 +28,6 @@ Hit "new pull request" and compare between forks.
 
 Confirm the pull request and that's it!
 
-Installation
+
 
 
