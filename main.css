@@ -9,8 +9,10 @@
     box-sizing: border-box;
 }
 
+
 h2 {
     font-size: 2.125em;
+
 }
 
 li {
@@ -26,8 +28,17 @@ li {
     color: white;
 }
 
+
 .u-bg-brand {
     background-color: #489df2;
+
+/* -------- */
+.header-bg{
+    /* background: #56CCF2;  fallback for old browsers */
+background: -webkit-linear-gradient(45deg, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(45deg, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
 
 /* Section */
@@ -78,7 +89,11 @@ li {
 
 .btn-primary {
     color: white;
+
     background-color: rgba(0, 0, 0, .2);
+=======
+    font-size: 4rem;
+
 }
 
 .btn-primary:hover,
