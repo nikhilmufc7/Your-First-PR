@@ -1,6 +1,13 @@
 * {
     box-sizing: border-box;
 }
+h1{
+  font-family: 'Aladin', cursive;
+}
+p,h2{
+  font-family: 'Dosis', sans-serif;
+
+}
 .center h2{
     text-align: center;
 }
@@ -12,11 +19,12 @@ li {
 }
 /* -------- */
 .header-bg{
-    background-color: #489df2;
+    /*background-color: #489df2;*/
+    background-image: radial-gradient(circle, #3241a6 0, #202a6b 120%)
 }
 .jumbotron-fluid{
     /* background-color: #f76c5e; */
-    
+
     text-align: center;
 }
 .jumbotron-fluid h1{
@@ -25,7 +33,7 @@ li {
 }
 .jumbotron-fluid p{
     color: white;
-   
+
 }
 #footer{
     background-color: blue;
