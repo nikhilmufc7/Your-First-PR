@@ -44,12 +44,21 @@ li {
     color: white;
     font-size: 25px;
 }
-#footer{
-    background-color: blue;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #8AFF33;
+    color: white;
     text-align: center;
-    color: red;
-    bottom: 0px;
 }
+/*#footer{*/
+    /*background-color: blue;*/
+    /*text-align: center;*/
+    /*color: red;*/
+    /*bottom: 0px;*/
+/*}*/
 
 .list-grid ol{
     column-count: 3;
