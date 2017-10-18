@@ -60,7 +60,7 @@ p {
 }
 
 .lead {
-    font-size: 6vmin;
+    font-size: 8vmin;
 }
 
 /* Link */
@@ -111,12 +111,12 @@ p {
 }
 
 .btn-lg {
-    font-size: 4vmin;
+    font-size: 6vmin;
 }
 
 /* List grid */
 .list-grid {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     font-size: 1.25em;
 }
 
@@ -138,7 +138,13 @@ p {
 }
 
 @media only screen and (min-width: 500px) {
+  .lead {
+      font-size: 5vmin;
+  }
+  .btn-lg {
+      font-size: 4vmin;
+  }
   .list-grid ol {
-    column-count: 3;
+      column-count: 3;
   }
 }
