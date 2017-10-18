@@ -19,8 +19,12 @@ li {
 }
 /* -------- */
 .header-bg{
-    /*background-color: #489df2;*/
-    background-image: radial-gradient(circle, #3241a6 0, #202a6b 120%)
+    background-image: radial-gradient(circle, #3241a6 0, #202a6b 120%);
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
 }
 .jumbotron-fluid{
     /* background-color: #f76c5e; */
