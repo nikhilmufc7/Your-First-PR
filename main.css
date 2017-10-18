@@ -17,6 +17,10 @@ li {
     list-style: none;
 }
 
+p {
+  margin: .5em 0 1em;
+}
+
 /* Utility classes */
 .u-text-center {
     text-align: center;
@@ -52,11 +56,26 @@ li {
 .jumbotron-fluid h1 {
     margin-bottom: 0;
     font-family: 'Aladin', cursive;
-    font-size: 11vmin;
+    font-size: 14vmin;
 }
 
 .lead {
-    font-size: 1.25em;
+    font-size: 6vmin;
+}
+
+/* Link */
+.link-default,
+.list-grid a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.link-default:hover,
+.link-default:focus,
+.list-grid a:hover,
+.list-grid a:focus {
+    text-decoration: underline;
+    color: #23527c;
 }
 
 /* Button */
@@ -83,21 +102,22 @@ li {
 
 .btn-primary {
     color: white;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: rgba(255, 255, 255, .2);
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(255, 255, 255, .4);
 }
 
 .btn-lg {
-    font-size: 4rem;
+    font-size: 4vmin;
 }
 
 /* List grid */
 .list-grid {
     margin-bottom: 2rem;
+    font-size: 1.25em;
 }
 
 .list-grid ol {
@@ -108,28 +128,16 @@ li {
     line-height: 1.5;
 }
 
-.list-grid a {
-    text-decoration: none;
-    color: #337ab7;
-}
-
-.list-grid a:hover,
-.list-grid a:focus {
-    text-decoration: underline;
-    color: #23527c;
-}
-
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    padding: .5em 0;
     background-color: #8AFF33;
-    color: white;
-    text-align: center;
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 500px) {
   .list-grid ol {
     column-count: 3;
   }
