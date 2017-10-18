@@ -33,11 +33,11 @@ li {
 }
 .jumbotron-fluid h1{
     color: white;
-    font-size: 8rem;
+    font-size: 10rem;
 }
 .jumbotron-fluid p{
     color: white;
-
+    font-size: 25px;
 }
 #footer{
     background-color: blue;
@@ -52,6 +52,9 @@ li {
 
 @media (max-width: 768px) {
     .jumbotron-fluid h1 {
-        font-size: 4rem;
+        font-size: 6rem;
+    }
+    .jumbotron-fluid p{
+        font-size: 20px;
     }
 }
