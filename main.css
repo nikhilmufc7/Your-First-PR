@@ -39,11 +39,15 @@ li {
     color: white;
 
 }
+
 #footer{
     background-color: blue;
-    text-align: center;
+    /*text-align: center;*/
     color: red;
     bottom: 0px;
+}
+#footer-style ul li {
+    display: inline;
 }
 
 .list-grid ol{
