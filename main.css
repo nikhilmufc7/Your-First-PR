@@ -40,6 +40,7 @@ li {
     /* background-color: #f76c5e; */
 
     text-align: center;
+    margin: 0 auto;
 }
 
 .jumbotron-fluid h1 {
@@ -67,6 +68,10 @@ li {
     /*color: red;*/
     /*bottom: 0px;*/
 /*}*/
+
+.list-grid {
+    margin-bottom: 30px;
+}
 
 .list-grid ol {
     column-count: 3;
