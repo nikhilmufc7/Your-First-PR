@@ -1,45 +1,93 @@
 * {
     box-sizing: border-box;
 }
-.center h2{
+
+p, li {
+    font-size: 2rem;
+}
+
+h1 {
+  font-family: 'Aladin', cursive;
+}
+
+p, h2 {
+  font-family: 'Dosis', sans-serif;
+}
+
+.center h2 {
     text-align: center;
 }
-.center li{
+
+.center li {
     text-align: center;
 }
+
 li {
     list-style: none;
 }
+
 /* -------- */
-.header-bg{
-    background-color: #489df2;
-}
-.jumbotron-fluid{
-    /* background-color: #f76c5e; */
-    
-    text-align: center;
-}
-.jumbotron-fluid h1{
-    color: white;
-    font-size: 8rem;
-}
-.jumbotron-fluid p{
-    color: white;
-   
-}
-#footer{
-    background-color: blue;
-    text-align: center;
-    color: red;
-    bottom: 0px;
+.header-bg {
+    background-image: radial-gradient(circle, #3241a6 0, #202a6b 120%);
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
 }
 
-.list-grid ol{
+.jumbotron-fluid {
+    /* background-color: #f76c5e; */
+
+    text-align: center;
+    margin: 0 auto;
+}
+
+.jumbotron-fluid h1 {
+    color: white;
+    font-size: 10rem;
+}
+
+.jumbotron-fluid p {
+    color: white;
+    font-size: 25px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #8AFF33;
+    color: white;
+    text-align: center;
+}
+/*#footer{*/
+    /*background-color: blue;*/
+    /*text-align: center;*/
+    /*color: red;*/
+    /*bottom: 0px;*/
+/*}*/
+
+.list-grid {
+    margin-bottom: 30px;
+}
+
+.list-grid ol {
     column-count: 3;
+    padding: 0;
 }
 
 @media (max-width: 768px) {
+    .list-grid ol {
+        column-count: 1;
+    }
+
     .jumbotron-fluid h1 {
-        font-size: 4rem;
+        font-size: 6rem;
+    }
+
+    .jumbotron-fluid p {
+        font-size: 20px;
     }
 }
