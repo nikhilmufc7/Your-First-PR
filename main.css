@@ -1,8 +1,12 @@
 * {
     box-sizing: border-box;
 }
-body{
-    font-family: 'Quicksand', sans-serif;
+h1{
+  font-family: 'Aladin', cursive;
+}
+p,h2{
+  font-family: 'Dosis', sans-serif;
+
 }
 .center h2{
     text-align: center;
@@ -15,23 +19,21 @@ li {
 }
 /* -------- */
 .header-bg{
-    /* background: #56CCF2;  fallback for old browsers */
-background: -webkit-linear-gradient(45deg, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(45deg, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    /*background-color: #489df2;*/
+    background-image: radial-gradient(circle, #3241a6 0, #202a6b 120%)
 }
 .jumbotron-fluid{
     /* background-color: #f76c5e; */
-    
+
     text-align: center;
 }
 .jumbotron-fluid h1{
     color: white;
-    font-size: 4rem;
+    font-size: 8rem;
 }
 .jumbotron-fluid p{
     color: white;
-   
+
 }
 #footer{
     background-color: blue;
