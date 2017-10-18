@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
 }
+
+p,li{
+    font-size: 2rem;
+}
+
 h1{
   font-family: 'Aladin', cursive;
 }
