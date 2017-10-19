@@ -148,6 +148,6 @@ p {
       column-count: 3;
   }
 }
-.maintainer{
+#maintainer{
     color: #e5271d;
 }
