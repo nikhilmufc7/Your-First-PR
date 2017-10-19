@@ -2,28 +2,32 @@
     box-sizing: border-box;
 }
 
-p,li{
+p, li {
     font-size: 2rem;
 }
 
-h1{
+h1 {
   font-family: 'Aladin', cursive;
 }
-p,h2{
-  font-family: 'Dosis', sans-serif;
 
+p, h2 {
+  font-family: 'Dosis', sans-serif;
 }
-.center h2{
+
+.center h2 {
     text-align: center;
 }
-.center li{
+
+.center li {
     text-align: center;
 }
+
 li {
     list-style: none;
 }
+
 /* -------- */
-.header-bg{
+.header-bg {
     background-image: radial-gradient(circle, #3241a6 0, #202a6b 120%);
     display: -webkit-flex;
     display: -ms-flex;
@@ -31,19 +35,24 @@ li {
     align-items: center;
     min-height: 100vh;
 }
-.jumbotron-fluid{
+
+.jumbotron-fluid {
     /* background-color: #f76c5e; */
 
     text-align: center;
+    margin: 0 auto;
 }
-.jumbotron-fluid h1{
+
+.jumbotron-fluid h1 {
     color: white;
     font-size: 10rem;
 }
-.jumbotron-fluid p{
+
+.jumbotron-fluid p {
     color: white;
     font-size: 25px;
 }
+
 .footer {
     position: fixed;
     left: 0;
@@ -60,15 +69,25 @@ li {
     /*bottom: 0px;*/
 /*}*/
 
-.list-grid ol{
+.list-grid {
+    margin-bottom: 30px;
+}
+
+.list-grid ol {
     column-count: 3;
+    padding: 0;
 }
 
 @media (max-width: 768px) {
+    .list-grid ol {
+        column-count: 1;
+    }
+
     .jumbotron-fluid h1 {
         font-size: 6rem;
     }
-    .jumbotron-fluid p{
+
+    .jumbotron-fluid p {
         font-size: 20px;
     }
 }
