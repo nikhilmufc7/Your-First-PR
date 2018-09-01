@@ -2,7 +2,7 @@
 The goal of this repo is to help beginners who are doing their first pull requests. Feel free to join!
 Your name will appear here https://nikhilmufc7.github.io/Hacktoberfest-PR/
 
-## Instruction
+## __Instruction__
 In the index.html file, look for the 'ol' tag. Then insert a 'li' tag with your link to your profile.
 
 
