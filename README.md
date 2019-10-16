@@ -1,6 +1,6 @@
 # Hacktoberfest First Pull request Helper !
 The goal of this repo is to help beginners who are doing their first pull requests. Feel free to join!
-Your name will appear here https://nikhilmufc7.github.io/Hacktoberfest-PR/
+Your name will appear here https://nikhilmufc7.github.io/Your-First-PR
 
 ## Instruction
 In the index.html file, look for the 'ol' tag. Then insert a 'li' tag with your link to your profile.
