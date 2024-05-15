@@ -39,9 +39,9 @@ p {
 
 /* Section */
 .section {
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
+    /* display: -webkit-flex; */
+    /* display: -ms-flex; */
+    /* display: flex; */
     align-items: center;
     min-height: 100vh;
     padding-left: 1em;
@@ -150,4 +150,9 @@ p {
 }
 #maintainer{
     color: #e5271d;
+}
+
+.border-bottom {
+    border-bottom: 1px dashed lightgray;
+    margin-bottom: 10px;
 }
