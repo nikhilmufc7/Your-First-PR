@@ -20,3 +20,5 @@ In the index.html file, look for the 'ol' tag. Then insert a 'li' tag with your 
   - Hit "new pull request" and compare between forks.
   - Confirm the pull request and that's it!
 
+
+- [Khairil](https://github.com/kaizeenn)
